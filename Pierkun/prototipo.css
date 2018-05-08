@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'FuturaPT';
+    src: url("fonts/FuturaPTBook.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: FuturaPT;
+}
+
+img {
+	vertical-align: top;
+}
+
+.header {
+	/*border:1px solid red;*/
+	/*height: 200px;
+	width: 100%;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top:40px;
+}
+.header-imagen {
+	width: 300px;
+	/*height: 100px*/
+}
+/*.header-right {
+	
+}*/
+.header-left {	
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.header-img2 {
+	margin-left: 20px;
+}
+.header-input {
+	margin:10px 5px;
+	height: 25px;
+	width: 200px;
+	border-radius: 3px;
+	border: 1px solid #A0A0A0;
+	padding-left: 10px;
+	opacity: 0.7;
+}
+#p-1 {
+	margin-left: 350px;
+    font-size: small;
+}
+
+
+
+		/*aqui comienza el footer*/
+.content {
+	height: 100vh;
+	width: 100%;
+	/*border:1px solid purple;*/
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: center;
+	margin-top: 80px;
+}
+.footer-contenedor {
+	display: flex;
+	flex-direction: column;
+}
+.footer-h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.footer-h2 {
+	font-size: 22px;
+	font-family:FuturaPT
+}
+.footer-form {
+	display: flex;
+	flex-direction: column;	
+}
+.footer-input {
+	margin-bottom: 15px;
+	height: 25px;
+	width: 200px;
+	border-radius: 3px;
+	border: 1px solid #A0A0A0;
+	padding-left: 10px;
+	opacity: 0.7;
+}
+.footer-button {
+	margin: 25px 70px;
+}
+.footer-button button {
+	color: #fff;
+	background: #000000;
+	border:none;
+	height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    font-weight: 700;
+}
