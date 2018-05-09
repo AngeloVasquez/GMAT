@@ -4,12 +4,17 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'FuturaPTLightOblique';
+    src: url("fonts/FuturaPTLightOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 
 * {
 	margin: 0;
 	padding: 0;
-	font-family: FuturaPT;
 }
 
 img {
@@ -46,9 +51,11 @@ img {
 	height: 25px;
 	width: 200px;
 	border-radius: 3px;
-	border: 1px solid #A0A0A0;
+	border: 1px solid #BEBEBE;
 	padding-left: 10px;
 	opacity: 0.7;
+	color: #BEBEBE;
+	font-family: FuturaPTLightOblique;
 }
 #p-1 {
 	margin-left: 350px;
@@ -74,10 +81,8 @@ img {
 .footer-h2 {
 	text-align: center;
 	margin-bottom: 15px;
-}
-.footer-h2 {
 	font-size: 22px;
-	font-family:FuturaPT
+	font-family:FuturaPT;
 }
 .footer-form {
 	display: flex;
@@ -88,19 +93,34 @@ img {
 	height: 25px;
 	width: 200px;
 	border-radius: 3px;
-	border: 1px solid #A0A0A0;
+	border: 1px solid #BEBEBE;
 	padding-left: 10px;
 	opacity: 0.7;
+	color: #BEBEBE;
+	font-family: FuturaPTLightOblique;
 }
+/*.footer-input:hover {
+	color: black;
+	height: 28px;
+	background: #FFFFFF;
+	transition: ease-in-out, width .25s ease-in-out;
+}*/
 .footer-button {
 	margin: 25px 70px;
 }
 .footer-button button {
-	color: #fff;
+	color: #BEBEBE;
 	background: #000000;
 	border:none;
 	height: 30px;
     width: 70px;
     border-radius: 20px;
     font-weight: 700;
+    font-family: FuturaPT;
+}
+/*.footer-button button:hover {
+	width: 75px;
+    transition: ease-in-out, width .25s ease-in-out;
+    background: #66CC00;
+    color: #fff;*/
 }
